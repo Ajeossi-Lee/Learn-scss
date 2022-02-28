@@ -1,0 +1,6 @@
+// 如果想后续在被引用文件中修改颜色，此时需要加上!default
+$color: blue !default;
+
+.page2 {
+  color: $color;
+}
