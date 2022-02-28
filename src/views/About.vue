@@ -11,12 +11,12 @@
 </template>
 
 <script>
-import VariateScss from '@/components/VariateScss.vue'
-import OperationScss from '@/components/OperationScss.vue'
-import ControlLogic from '@/components/ControlLogic.vue'
-import NestScss from '@/components/NestScss.vue'
-import FunctionScss from '@/components/FunctionScss.vue'
-import ExtendScss from '@/components/ExtendScss.vue'
+import VariateScss from '@/components/basics/VariateScss.vue'
+import OperationScss from '@/components/basics/OperationScss.vue'
+import ControlLogic from '@/components/basics/ControlLogic.vue'
+import NestScss from '@/components/basics/NestScss.vue'
+import FunctionScss from '@/components/basics/FunctionScss.vue'
+import ExtendScss from '@/components/basics/ExtendScss.vue'
 
 export default {
   components: {

@@ -54,7 +54,7 @@ $color: green;
   }
 }
 
-@import '../assets/css/nest-import.scss';
+@import '@/assets/css/nest-import.scss';
 
 // 混合指令
 // 定义混合指令 @mixin
