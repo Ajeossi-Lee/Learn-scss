@@ -19,5 +19,5 @@ npm run build
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ### basic meassage
-autor: A1ee
+autor: A1ee  
 Date: 2022-02-28
