@@ -1,6 +1,7 @@
 <template>
+  <h2>demo1</h2>
   <div class="btn-container">
-    <h2>Simple hover effects with <span>box-shadow</span></h2>
+    <h3>Simple hover effects with <span>box-shadow</span></h3>
     <div class="btns">
       <button class="fill">Fill in</button>
       <button class="pulse">Pulse</button>
@@ -37,11 +38,15 @@ span {
 }
 
 h2 {
-  margin-top: 50px;
+  text-align: center;
+}
+
+h3 {
+  margin-top: 200px;
 }
 
 .btn-container {
-  height: 300px;
+  height: 600px;
   text-align: center;
   color: #fff;
   background-color: hsl(235, 5%, 10%);

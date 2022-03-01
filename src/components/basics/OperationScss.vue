@@ -21,6 +21,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+$page-size: 40px;
+
 .page {
   margin: 0 auto;
   height: 100px * 2;
@@ -32,7 +34,7 @@ export default {
       如果值被圆括号包裹
       如果值是算数表达式的一部分
    */
-  font-size: (40px / 2);
+  font-size: ($page-size / 2);
   // + 可用于连接字符串
   cursor: not- + allowed;
 }
